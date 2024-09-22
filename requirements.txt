@@ -1,0 +1,14 @@
+numpy
+matplotlib
+xarray
+cmocean
+pandas
+geopandas
+geoviews
+emoji
+netCDF4
+h5netcdf
+scipy
+basemap
+dask
+nc-time-axis
