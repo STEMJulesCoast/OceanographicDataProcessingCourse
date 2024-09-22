@@ -1,8 +1,7 @@
 .venv/
 Data/**/*.nc
 Data/110m_cultural/
-!Data/
-!Data/Wind/
+!Data/Wind/wind_speed_012023.nc
 **/*solutions.ipynb
 experiments.ipynb
 **/*.png

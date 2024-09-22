@@ -43,4 +43,26 @@ Before starting the course, make sure to:
    `Data/Wind` directory.
 4. Please note that we will be working with Jupyter Notebooks throughout the course, and during the first session, we will install the necessary libraries and set up the virtual environment together.
 
+---
+FYI How to create a virtual environment and install the necessary libaries in Visual Studio Code
+
+1. **Create a virtual environment** (optional, but recommended):
+    ```bash
+    python -m venv .venv
+    ```
+
+2. **Activate the virtual environment**:
+   - **Windows**:
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - **macOS/Linux**:
+     ```bash
+     source .venv/bin/activate
+     ```
+
+3. **Install the required libraries**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
