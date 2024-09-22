@@ -1,6 +1,8 @@
 .venv/
 Data/**/*.nc
 Data/110m_cultural/
+!Data/
+!Data/Wind/
 **/*solutions.ipynb
 experiments.ipynb
 **/*.png
