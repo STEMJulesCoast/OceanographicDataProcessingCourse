@@ -1,7 +1,8 @@
 .venv/
 Data/**/*.nc
-Data/110m_cultural/
+Data/110m_cultural/*
 !Data/Wind/cmems_obs-wind_glo_phy_my_l4_P1M_202301.nc
+!/Data/110m_cultural/ne_110m_admin_0_countries.*
 **/*solutions.ipynb
 experiments.ipynb
 **/*.png
