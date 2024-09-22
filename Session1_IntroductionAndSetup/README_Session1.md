@@ -32,9 +32,15 @@ This notebook is part of an introductory session on oceanographic data processin
 - **Basic Visualization**: Gain skills in visualizing data with `matplotlib` and overlaying geographical data with `geopandas`.
 - **Data Slicing/Downsampling and Analysis**: Learn how to manipulate large datasets, focusing on specific regions or variables, and perform basic statistical analysis.
 
-### Requirements:
-- Python 3.12
-- Required libraries: `numpy`, `xarray`, `matplotlib`, `geopandas`, `basemap`, `emoji`
-- Download Shapefiles Natural Earth: [110m Cultural Vectors](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/)
-- Download Wind Data (Copernicus Marine Service): [Wind Data](https://data.marine.copernicus.eu/product/WIND_GLO_PHY_CLIMATE_L4_MY_012_003/files?path=WIND_GLO_PHY_CLIMATE_L4_MY_012_003%2Fcmems_obs-wind_glo_phy_my_l4_P1M_202211%2F2023%2F)
+---
 
+### Access the course via Binder
+
+Click the link below to launch the course in a temporary, browser-based environment using Binder. Binder allows you to run the Jupyter notebooks without needing to install anything locally. Keep in mind that this environment is temporary and any changes you make will be lost once you close the session. For a permanent setup, you may prefer to clone the GitHub repository and work in your local environment.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/STEMJulesCoast/OceanographicDataProcessingCourse/main?filepath=Session1_IntroductionAndSetup/session_1_notebook.ipynb)
+
+
+## Done with the exercise? 
+
+Test your knowledge with this little [Quiz](https://stemjulescoast.github.io/QuizCollection/HCUquiz_ODP1.html)

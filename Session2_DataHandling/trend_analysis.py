@@ -136,7 +136,7 @@ def plot_trend_with_basemap(trend_decade, vmin=-0.5, vmax=0.5, variable = 'SST',
     plt.clabel(contour_lines, inline=True, fontsize=8, fmt='%1.2f')
 
     # Plot the colorbar
-    cbar = m.colorbar(cf, location='right', pad="10%", aspect=40)
+    cbar = m.colorbar(cf, location='right', pad='5%', aspect=40)
     cbar.set_label(f'{label}/decade')
     cbar.ax.yaxis.set_major_locator(MaxNLocator(nbins=7))
 
