@@ -9,5 +9,6 @@ experiments.ipynb
 Session5/
 Session6/
 Modules/*
+!Modules/.gitkeep
 get_wind_copernicus.py
 to_do.txt
