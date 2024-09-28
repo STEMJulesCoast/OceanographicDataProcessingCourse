@@ -44,3 +44,6 @@ This notebook is part of the second session on oceanographic data processing. In
   
 ---
 
+## Done with the exercise of Session 1 and Session 2 ? 
+
+Test your knowledge with this little [Quiz](https://stemjulescoast.github.io/QuizCollection/HCUquiz_ODP1.html)

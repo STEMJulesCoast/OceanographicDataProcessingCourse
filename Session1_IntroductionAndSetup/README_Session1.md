@@ -40,7 +40,3 @@ Click the link below to launch the course in a temporary, browser-based environm
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/STEMJulesCoast/OceanographicDataProcessingCourse/main?filepath=Session1_IntroductionAndSetup/session_1_notebook.ipynb)
 
-
-## Done with the exercise? 
-
-Test your knowledge with this little [Quiz](https://stemjulescoast.github.io/QuizCollection/HCUquiz_ODP1.html)

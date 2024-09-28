@@ -8,17 +8,17 @@ Welcome to **Oceanographic Data Processing**. This course is designed to introdu
 The course consists of six sessions, each contained in its own folder:
 - **Session 1**: Introduction to Data Structures and Basic Visualization
 - **Session 2**: Working with Climate Data
-- **Session 3**: Functions/Modules/Object Oriented Programming
-- **Session 4**: Wind-Driven Ocean Dynamics: Ekman Transport and Vertical Motion
+- **Session 3**: Functions, Modules and Introduction into Wind Driven Ocean Dynamics
+- **Session 4**: Analysis of Wind-Driven Ocean Dynamics: Ekman Transport and Vertical Motion
 - **Session 5**: Statistical Analysis of Oceanographic Data
-- **Session 6**: Final Session - Integrating Everything and adding some Fourier Transformation
+- **Session 6**: Final Session - Integrating Everything and Introducing Fourier Transformation
 
 ### Folder Structure:
 
 - **`/Data`**: Folder to store datasets for each session.
 - **`/Session1_IntroductionAndSetup`**: Contains the notebook and materials for Session 1.
 - **`/Session2_DataHandling`**: Contains the notebook and materials for Session 2.
-- **`/Session3_FunctionModulesOOP`**: Contains the notebook and materials for Session 3.
+- **`/Session3_FunctionsModules`**: Contains the notebook and materials for Session 3.
 - **`/Session4_EkmanAnalysis`**: Contains the notebook and materials for Session 4.
 - **`/Session5_StatisticsAndTrends`**: Contains the notebook and materials for Session 5.
 - **`/Session6`**: Contains the notebook and materials for Session 6.
@@ -64,4 +64,12 @@ FYI How to create a virtual environment and install the necessary libaries in Vi
     ```bash
     pip install -r requirements.txt
     ```
+
+---
+
+### Access the course via Binder
+
+Click the link below to launch the course in a temporary, browser-based environment using Binder. Binder allows you to run the Jupyter notebooks without needing to install anything locally. Keep in mind that this environment is temporary and any changes you make will be lost once you close the session. For a permanent setup, you may prefer to clone the GitHub repository and work in your local environment.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/STEMJulesCoast/OceanographicDataProcessingCourse/main)
 
