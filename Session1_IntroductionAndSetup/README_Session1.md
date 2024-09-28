@@ -31,12 +31,6 @@ This notebook is part of an introductory session on oceanographic data processin
 - **Data Exploration**: Understand how to explore large NetCDF datasets using `xarray`, inspecting their structure, metadata, and content.
 - **Basic Visualization**: Gain skills in visualizing data with `matplotlib` and overlaying geographical data with `geopandas`.
 - **Data Slicing/Downsampling and Analysis**: Learn how to manipulate large datasets, focusing on specific regions or variables, and perform basic statistical analysis.
+- **Exceptions and Error Handling:** Navigate trough errors like ValueError and projection issues when plotting, which required adjusting your approach to ensure the code executed properly.
 
----
-
-### Access the course via Binder
-
-Click the link below to launch the course in a temporary, browser-based environment using Binder. Binder allows you to run the Jupyter notebooks without needing to install anything locally. Keep in mind that this environment is temporary and any changes you make will be lost once you close the session. For a permanent setup, you may prefer to clone the GitHub repository and work in your local environment.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/STEMJulesCoast/OceanographicDataProcessingCourse/main?filepath=Session1_IntroductionAndSetup/session_1_notebook.ipynb)
 

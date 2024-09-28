@@ -14,3 +14,5 @@ get_wind_copernicus.py
 to_do.txt
 __pycache__/
 *.pyc
+Session*/_pycache_
+test_trend_analysis.py

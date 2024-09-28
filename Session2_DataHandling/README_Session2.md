@@ -8,7 +8,7 @@ This notebook is part of the second session on oceanographic data processing. In
 ### **Overview**:
 ---
 1. **Data Handling and Slicing**:
-   - The session begins with an introduction to loading, handling, and slicing multidimensional datasets using Python’s `xarray` library.
+   - The session begins with an introduction to loading and handling multidimensional datasets using Python’s `xarray` library.
    - We explore wind and sea surface temperature (SST) data, focusing on specific regions like the Indian Ocean and specific time ranges (e.g., the year 2023 and a longer period from 1960-2023).
 
 2. **Calculating Variability on Different Timescales**:
@@ -16,7 +16,7 @@ This notebook is part of the second session on oceanographic data processing. In
    - Seasonal cycles and interannual fluctuations are analyzed.
 
 3. **Looping Through Datasets**:
-   - We introduce loops to iterate over monthly datasets, enabling the calculation of monthly averages for regions of interest.
+   - We introduce loops to iterate over monthly datasets, enabling the calculation of averages for regions of interest.
    - We will apply loops to compute and plot time series data, providing insights into the temporal variability of oceanographic variables.
 
 4. **Statistical Analysis**:
@@ -36,7 +36,9 @@ This notebook is part of the second session on oceanographic data processing. In
 
 ## **Key Learning Outcomes**:
 
-- **Data Handling**: techniques for loading, slicing, and analyzing multidimensional climate data using `xarray`.
+- **Automated Data Retrieval**: Learning to automatically download data, including using OpenDAP for large datasets without specific access keys.
+
+- **Data Handling**: techniques for loading, combining and analyzing multidimensional climate data using `xarray`.
 - **Iterating Through Data**: Use loops to process large datasets and perform repetitive calculations.
 - **Statistical Analysis**: Calculate and interpret statistical metrics like **means**, **standard deviations**, and **trends** on various timescales.
 - **Trend Analysis**: Identify and visualize long-term climate trends in oceanographic data.
