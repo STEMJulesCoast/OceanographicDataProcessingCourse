@@ -17,5 +17,4 @@ ipykernel==6.29.5
 ipython==8.27.0
 jupyter_client==8.6.3
 
-
-
+pytest==7.1.2
