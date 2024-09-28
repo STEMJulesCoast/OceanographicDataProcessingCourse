@@ -12,3 +12,5 @@ Modules/*
 !Modules/.gitkeep
 get_wind_copernicus.py
 to_do.txt
+__pycache__/
+*.pyc
