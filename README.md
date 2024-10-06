@@ -10,22 +10,26 @@ The course consists of six sessions, each contained in its own folder:
 - **Session 2**: Working with Climate Data
 - **Session 3**: Functions, Modules and Introduction into Wind Driven Ocean Dynamics
 - **Session 4**: Analysis of Wind-Driven Ocean Dynamics: Ekman Transport and Vertical Motion
-- **Session 5**: Statistical Analysis of Oceanographic Data
-- **Session 6**: Final Session - Integrating Everything and Introducing Fourier Transformation
+- **Session 5**: Variability Analysis of 4D-Oceanographic Data 
+- **Session 6**: Frequency Patterns and Object-Oriented Programming – Introducing Fourier Transforms, Wavelets, and EOF Analysis
 
 ### Folder Structure:
-
+- **`Modules`**: Folder to store modules and containing the class `TimeSeriesAnalyzer`
 - **`/Data`**: Folder to store datasets for each session.
 - **`/Session1_IntroductionAndSetup`**: Contains the notebook and materials for Session 1.
 - **`/Session2_DataHandling`**: Contains the notebook and materials for Session 2.
 - **`/Session3_FunctionsModules`**: Contains the notebook and materials for Session 3.
 - **`/Session4_EkmanAnalysis`**: Contains the notebook and materials for Session 4.
-- **`/Session5_StatisticsAndTrends`**: Contains the notebook and materials for Session 5.
-- **`/Session6`**: Contains the notebook and materials for Session 6.
+- **`/Session5_VariabilityAnalysis`**: Contains the notebook and materials for Session 5.
+- **`/Session6_FreqPatternsOOP`**: Contains the notebook and materials for Session 6.
+
 
 -   solution notebooks will be uploaded after the course.
   
-Each session folder contains a Jupyter notebook with both teaching materials and exercises. Solutions to the exercises will be uploaded after each session.
+Each session folder contains a Jupyter notebook with both teaching materials and exercises. Solutions to the exercises will be uploaded after the course.
+
+[Click here to view the folder structure](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp9lV1vozgUhv8K8tWulJLwOW0uRurko620nUbtaFa7JLIc7CRowM7YZlqm6n-fQ3CoRVLITcCvj5_35Ri_olRQhsZoK8l-5_zzuOQOXKpcNw8ehdDNo_q6_it5SBnh4jCYpVOiyUKKlCmV8e3qb0vpXFx8dr4kw3tBy5yp4cp5H_zSDHpJ8i0rmGIyYwoTTvLqN5PuvlqtTrR-kphKzpZxJolm1KGlhGUdvWPORJRSMXtil2WSDGvcoSWZNANeMvw34_TMiJ8Mn56-nRkIkuHsa3hmIEyGnjcqcFrmupQkP0oYp0veybZe1CrgGRqIJS1YobBYq4tn0OBtLvB-V-GiwnmIF9499kd-MPJcntqO2woQ1n-Qh0PFM88FoRDVJoPoVj0w4NOq5Bv_3vlKDuHUSUkOLonOBO-tDEFZlQMTIFSefXVD14ff4dUrptytN3KPS13kmdKuftF9tScmZmuB0LwIWGBem3Y2Qjo5ABdEwRoDZy0kZVI5TKdubyJ1V4O3biNNoSmaIQ_fcS2hLdM6hGtOn5gu93ZXTJsZwKKaKdjDXGi2FuKHm-0rvl6dquH1Pc6up_czfFzHLWit65LMWhIf1719Cy5z2BE2waxRWgR-D4FRnxD4hqCjC5KEcSXwpuSHCFRn8xpZmCRaQsTNHlfZUdb1M2_9BHh-LNl-QN7V80ZteQp6PBn1iaeg48noak8vpNjnrLX1XrNLfNMSh3j2oyDQBI1DG_emkVq4YQ-uUZ_ghh80wW2LEOHvRGZkneWZrs6B3DYTLJCoB8SoT0CiTm5GB7kddsONzCiFJvw4tLuWOMZzyX4uiNZMcvXwsLBp7xqxRRv30Br1CW3coTU6oH0mv1jONKasEB_Wg9adPczbxj0jtj4djb1rIF5UegfAE0A9xTWyFtUQogEqmCxIRuE4fq2lSwRHW8GWaAx_KdsQ-Not0ZK_gZSUWjxVPEVjLUs2QFKU2x0ab0iu4K7cUzghpxmBT1lxlDCaaSHvm_P-cOwP0J7w_4VoJXCLxq_oBY2D4Mr14_jSi7zLKArjqwGq4KkLNyM_Di-DKIg-xXH8NkC_DwVG7lXkx174KYguvfDKi8K3PzaRgFc)
+
 
 **Note:** Each notebook contains a few exercises, which we will either discuss together or you will complete independently. There are also extra exercises, but you don't need to do them. They are provided to deepen your understanding, but they are not required to progress through the script. If you find that you're moving through the material quickly and would like an additional challenge, feel free to tackle these as well.
 
@@ -69,7 +73,23 @@ FYI How to create a virtual environment and install the necessary libaries in Vi
 
 ### Access the course via Binder
 
-Click the link below to launch the course in a temporary, browser-based environment using Binder. Binder allows you to run the Jupyter notebooks without needing to install anything locally. Keep in mind that this environment is temporary and any changes you make will be lost once you close the session. For a permanent setup, you may prefer to clone the GitHub repository and work in your local environment.
+Click the link below to launch the course in a temporary, browser-based environment using Binder. Binder allows you to run the Jupyter notebooks without needing to install anything locally. Keep in mind that this environment is temporary and any changes you make will be lost once you close the session or after ~10 minutes of inactivity. For a permanent setup, you may prefer to clone the GitHub repository and work in your local environment.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/STEMJulesCoast/OceanographicDataProcessingCourse/main)
 
+---
+## Data Utilized Throughout the Course
+
+**Wind**:   
+E.U. Copernicus Marine Service Information; DOI: https://doi.org/10.48670/moi-00181
+
+**SST**:   
+NOAA Extended Reconstructed SST V5 data provided by the NOAA PSL, Boulder, Colorado, USA, from their [website](https://psl.noaa.gov)
+
+**Argo**:   
+EN.4.2.2 (analysis.g10) data were obtained from https://www.metoffice.gov.uk/hadobs/en4/ and are © British Crown Copyright, Met Office, provided under a Non-Commercial Government Licence http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/.
+
+
+### License
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).

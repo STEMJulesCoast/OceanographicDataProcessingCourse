@@ -45,7 +45,6 @@ This notebook is part of the second session on oceanographic data processing. In
 - **ENSO Composites**: Identify and analyze climate events like El Niño and La Niña through SST composites.
   
 ---
-
 ## Done with the exercise of Session 1 and Session 2 ? 
 
 Test your knowledge with this little [Quiz](https://stemjulescoast.github.io/QuizCollection/HCUquiz_ODP1.html)

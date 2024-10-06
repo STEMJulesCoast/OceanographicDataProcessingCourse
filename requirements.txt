@@ -12,6 +12,12 @@ scipy==1.14.1
 basemap==1.4.1
 dask==2024.9.0
 nc-time-axis==1.4.1
+bokeh == 3.5.2
+gsw == 3.6.19
+holoviews == 1.19.1
+pycwt == 0.4.0b0
+eofs == 1.4.1
+
 
 ipykernel==6.29.5
 ipython==8.27.0

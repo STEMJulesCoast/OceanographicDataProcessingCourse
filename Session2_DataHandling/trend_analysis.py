@@ -89,7 +89,7 @@ def adjust_longitude(data_array, central_lon):
         data_array['lon'] = np.where(lon < 0, lon + 360, lon)
 
     #data_array['lon'] = np.where(data_array['lon'] < 0, data_array['lon'] + 360, data_array['lon'])
-    return data_array.sortby('lon')  # Sort the longitude after adjusting
+    return data_array.sortby('lon')  # Sort by longitude after adjusting
 
 def plot_trend_with_basemap(trend_decade, vmin=-0.5, vmax=0.5, variable = 'SST', central_lon=180,label = '°C'):
     """
