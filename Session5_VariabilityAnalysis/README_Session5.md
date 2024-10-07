@@ -1,6 +1,6 @@
 # **Transitioning from Surface Data to Vertical Profiles**
 
-This notebook is part of the session on oceanographic data processing, where we transition from focusing on surface data to exploring vertical profiles using Argo data. In this session, we work with objectively gridded Argo datasets, which provide temperature, salinity, and their uncertainties at various depths. Unlike previous sessions where we accessed sea surface temperature (SST) data via OPeNDAP, we now download and process gridded Argo data over HTTPS. This incorporates robust data handling with logical conditions to ensure that downloads, file handling, and data processing occur correctly.
+This notebook is part of the fifth session on oceanographic data processing, where we transition from focusing on surface data to exploring vertical profiles using Argo data. In this session, we work with objectively gridded Argo datasets, which provide temperature, salinity, and their uncertainties at various depths. Unlike previous sessions where we accessed sea surface temperature (SST) data via OPeNDAP, we now download and process gridded Argo data over HTTPS. This incorporates robust data handling with logical conditions to ensure that downloads, file handling, and data processing occur correctly.
 
 ---
 
@@ -17,7 +17,7 @@ This notebook is part of the session on oceanographic data processing, where we 
 
 3. **Mixed Layer Depth (MLD) Analysis**:
    - Mixed Layer Depth is calculated using a density threshold approach. We explore how changes in temperature and salinity impact the density structure of the ocean, and how this affects the MLD.
-   - We calculate and visualize the seasonal cycle amplitude of the MLD, Mixed Layer Salinity and Mixed Layer Temperature examining both seasonal and interannual variability.
+   - We calculate and visualize the seasonal cycle amplitude of the MLD, Mixed Layer Salinity and Mixed Layer Temperature.
 
 4. **RMSE Analysis**:
    - We calculate the Root Mean Square Error (RMSE) between salinity/temperature in the first depth layer and the mixed layer. This analysis helps assess whether surface measurements are good proxies for mixed layer conditions.
@@ -27,7 +27,9 @@ This notebook is part of the session on oceanographic data processing, where we 
 ### **Files Included**:
 
 - `session_5_notebook.ipynb`: The main notebook for the session, which contains exercises and analyses focused on vertical profiles, MLD, and RMSE calculations.
-- `IntroGridding.ipynb`: An introductory notebook that explores gridding techniques for in situ data.  
+- `IntroGridding.ipynb`: An introductory notebook that explores gridding techniques for in situ data. 
+
+### **Files Created**
 - `EN4_uppermost_2020_2023.nc`: A subset of the gridded Argo data, saved after processing, containing salinity, potential density, and MLD data at the uppermost depth layer and stored in `Data/EN4`.
 
 ---

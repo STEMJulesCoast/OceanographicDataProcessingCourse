@@ -11,7 +11,7 @@ This notebook is part of the third session on oceanographic data processing. In 
    - A hands-on example calculates the area of rectangles and squares using a function. This example will help solidify the understanding of basic function structure.
 
 2. **Exercise: Circle Area Calculation**:
-   - We introduce a second exercise where we create a function to calculate the area of a circle. This allows for practice with function definitions and parameterization.
+   - You will create a function to calculate the area of a circle. This allows for practice with function definitions and parameterization.
 
 3. **Creating a Python Module**:
    - We organize functions into a Python module. This step involves creating a `.py` script with all necessary functions and importing it into the main notebook.

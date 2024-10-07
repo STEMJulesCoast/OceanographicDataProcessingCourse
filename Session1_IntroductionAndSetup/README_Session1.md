@@ -10,7 +10,7 @@ This notebook is part of an introductory session on oceanographic data processin
    - managing a Python environment and installing dependencies.
 
 2. **Downloading and Loading Data**: 
-   - Once the environment is set up, we analyze oceanographic data, such as global wind data, in NetCDF format from Copernicus Marine Service.
+   - Once the environment is set up, we analyze climate data, such as global wind data, in NetCDF format from Copernicus Marine Service.
    - We also work with additional geographic data (shapefiles for continents and country borders) from Natural Earth for visualization purposes.
 
 3. **Exploring Data Structures**: 
