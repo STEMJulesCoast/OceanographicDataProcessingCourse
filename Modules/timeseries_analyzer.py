@@ -172,6 +172,12 @@ class TimeSeriesAnalyzer:
         Computes the annual amplitude for all variables in the dataset based on the climatology.
         Stores the result in self._annual_amplitude as an xarray.Dataset.
         """
+
+        # Ensure climatology is computed
+        if not self._climatology:
+            print("Climatology not found. Computing climatology first.")
+            self.compute_climatology()
+            
         for var in self._climatology.data_vars:
             time_res = self._get_time_resolution()
 
