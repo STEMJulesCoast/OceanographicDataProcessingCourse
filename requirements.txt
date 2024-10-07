@@ -1,10 +1,8 @@
 numpy==1.26.4
 matplotlib==3.8.4
 xarray==2024.9.0
-cmocean==4.0.3
 pandas==2.2.3
 geopandas==1.0.1
-geoviews==1.13.0
 emoji==2.13.0
 netCDF4==1.7.1.post2
 h5netcdf==1.3.0
@@ -18,9 +16,7 @@ holoviews == 1.19.1
 pycwt == 0.4.0b0
 eofs == 1.4.1
 hvplot == 0.10.0
-
 ipykernel==6.29.5
 ipython==8.27.0
 jupyter_client==8.6.3
-
-pytest==7.1.2
+#pytest==7.1.2

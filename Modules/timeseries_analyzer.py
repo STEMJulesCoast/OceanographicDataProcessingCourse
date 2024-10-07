@@ -2,9 +2,9 @@ import xarray as xr
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import detrend
-from scipy.stats import linregress, chi2
+from scipy.stats import  chi2
 import pycwt as wavelet
-from numpy.fft import fft, fftfreq
+from numpy.fft import fft
 
 class TimeSeriesAnalyzer:
     """
