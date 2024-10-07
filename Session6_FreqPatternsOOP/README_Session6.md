@@ -51,3 +51,5 @@ This session builds on previous work, particularly the `ekman_dynamics.py` modul
 ## Done with the exercises of Session 5 and Session 6?
 
 Challenge your understanding with this [Quiz](https://stemjulescoast.github.io/QuizCollection/HCUquiz_ODP3.html).
+
+

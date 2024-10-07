@@ -93,3 +93,34 @@ EN.4.2.2 (analysis.g10) data were obtained from https://www.metoffice.gov.uk/had
 ### License
 
 This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
+
+### Third-Party Libraries and Licenses
+
+This project uses the following third-party libraries, which are licensed separately:
+
+- **NumPy** (BSD 3-Clause License)
+- **Matplotlib** (Matplotlib License - BSD-like)
+- **Xarray** (Apache License 2.0)
+- **cmocean** (MIT License)
+- **Pandas** (BSD 3-Clause License)
+- **GeoPandas** (BSD 3-Clause License)
+- **GeoViews** (BSD 3-Clause License)
+- **Emoji** (BSD 3-Clause License)
+- **netCDF4** (MIT License)
+- **h5netcdf** (MIT License)
+- **SciPy** (BSD 3-Clause License)
+- **Basemap** (MIT License)
+- **Dask** (BSD 3-Clause License)
+- **nc-time-axis** (MIT License)
+- **Bokeh** (BSD 3-Clause License)
+- **GSW** (BSD 3-Clause License)
+- **HoloViews** (BSD 3-Clause License)
+- **PyCWT** (BSD 3-Clause License)
+- **EOFs** (MIT License)
+- **hvPlot** (BSD 3-Clause License)
+- **IPykernel** (BSD 3-Clause License)
+- **IPython** (BSD 3-Clause License)
+- **Jupyter Client** (BSD 3-Clause License)
+- **Pytest** (MIT License)
+
+Please see the respective library documentation and license files for more details.
