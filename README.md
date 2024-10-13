@@ -3,6 +3,7 @@
 
 Welcome to **Oceanographic Data Processing**. This course is designed to introduce you to working with oceanographic datasets using Python. It is divided into six sessions, each focusing on a different aspect of data processing, analysis, and visualization.
 
+
 ## Course Structure:
 
 The course consists of six sessions, each contained in its own folder:
@@ -28,10 +29,10 @@ The course consists of six sessions, each contained in its own folder:
   
 Each session folder contains a Jupyter notebook with both teaching materials and exercises. Solutions to the exercises will be uploaded after the course.
 
-[Click here to view the folder structure](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp9lV1vozgUhv8K8tWulJLwOW0uRurko620nUbtaFa7JLIc7CRowM7YZlqm6n-fQ3CoRVLITcCvj5_35Ri_olRQhsZoK8l-5_zzuOQOXKpcNw8ehdDNo_q6_it5SBnh4jCYpVOiyUKKlCmV8e3qb0vpXFx8dr4kw3tBy5yp4cp5H_zSDHpJ8i0rmGIyYwoTTvLqN5PuvlqtTrR-kphKzpZxJolm1KGlhGUdvWPORJRSMXtil2WSDGvcoSWZNANeMvw34_TMiJ8Mn56-nRkIkuHsa3hmIEyGnjcqcFrmupQkP0oYp0veybZe1CrgGRqIJS1YobBYq4tn0OBtLvB-V-GiwnmIF9499kd-MPJcntqO2woQ1n-Qh0PFM88FoRDVJoPoVj0w4NOq5Bv_3vlKDuHUSUkOLonOBO-tDEFZlQMTIFSefXVD14ff4dUrptytN3KPS13kmdKuftF9tScmZmuB0LwIWGBem3Y2Qjo5ABdEwRoDZy0kZVI5TKdubyJ1V4O3biNNoSmaIQ_fcS2hLdM6hGtOn5gu93ZXTJsZwKKaKdjDXGi2FuKHm-0rvl6dquH1Pc6up_czfFzHLWit65LMWhIf1719Cy5z2BE2waxRWgR-D4FRnxD4hqCjC5KEcSXwpuSHCFRn8xpZmCRaQsTNHlfZUdb1M2_9BHh-LNl-QN7V80ZteQp6PBn1iaeg48noak8vpNjnrLX1XrNLfNMSh3j2oyDQBI1DG_emkVq4YQ-uUZ_ghh80wW2LEOHvRGZkneWZrs6B3DYTLJCoB8SoT0CiTm5GB7kddsONzCiFJvw4tLuWOMZzyX4uiNZMcvXwsLBp7xqxRRv30Br1CW3coTU6oH0mv1jONKasEB_Wg9adPczbxj0jtj4djb1rIF5UegfAE0A9xTWyFtUQogEqmCxIRuE4fq2lSwRHW8GWaAx_KdsQ-Not0ZK_gZSUWjxVPEVjLUs2QFKU2x0ab0iu4K7cUzghpxmBT1lxlDCaaSHvm_P-cOwP0J7w_4VoJXCLxq_oBY2D4Mr14_jSi7zLKArjqwGq4KkLNyM_Di-DKIg-xXH8NkC_DwVG7lXkx174KYguvfDKi8K3PzaRgFc)
 
+**Note:** Each notebook contains a few exercises, which we will either discuss together or you will complete independently. There are also extra exercises, but you don't need to do them. They are provided to deepen your understanding, but they are not required to progress through the script during our live sessions. If you find that you're moving through the material quickly and would like an additional challenge, feel free to tackle these as well.
 
-**Note:** Each notebook contains a few exercises, which we will either discuss together or you will complete independently. There are also extra exercises, but you don't need to do them. They are provided to deepen your understanding, but they are not required to progress through the script. If you find that you're moving through the material quickly and would like an additional challenge, feel free to tackle these as well.
+**<span style="color:red">Homework will be uploaded to the `Homework` folder after every second session and must be completed before the next meeting. The first homework is already available but should only be worked on after the first meeting. </span>**
 
 **The course emphasizes the importance of carefully reading and understanding instructions and comments to find solutions.** 
 
