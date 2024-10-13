@@ -3,6 +3,7 @@
 
 Welcome to **Oceanographic Data Processing**. This course is designed to introduce you to working with oceanographic datasets using Python. It is divided into six sessions, each focusing on a different aspect of data processing, analysis, and visualization.
 
+The course is organized into three meetings, each containing two sessions. The meetings will take place on November 2, November 30, and January 11.
 
 ## Course Structure:
 
@@ -15,8 +16,9 @@ The course consists of six sessions, each contained in its own folder:
 - **Session 6**: Frequency Patterns and Object-Oriented Programming – Introducing Fourier Transforms, Wavelets, and EOF Analysis
 
 ### Folder Structure:
-- **`Modules`**: Folder to store modules and containing the class `TimeSeriesAnalyzer`
+- **`/Modules`**: Folder to store modules and containing the class `TimeSeriesAnalyzer`
 - **`/Data`**: Folder to store datasets for each session.
+- **`/Homework`**: Contains tasks for you to solve between meetings.
 - **`/Session1_IntroductionAndSetup`**: Contains the notebook and materials for Session 1.
 - **`/Session2_DataHandling`**: Contains the notebook and materials for Session 2.
 - **`/Session3_FunctionsModules`**: Contains the notebook and materials for Session 3.
@@ -32,7 +34,7 @@ Each session folder contains a Jupyter notebook with both teaching materials and
 
 **Note:** Each notebook contains a few exercises, which we will either discuss together or you will complete independently. There are also extra exercises, but you don't need to do them. They are provided to deepen your understanding, but they are not required to progress through the script during our live sessions. If you find that you're moving through the material quickly and would like an additional challenge, feel free to tackle these as well.
 
-**<span style="color:red">Homework will be uploaded to the `Homework` folder after every second session and must be completed before the next meeting. The first homework is already available but should only be worked on after the first meeting. </span>**
+**Homework will be uploaded to the `Homework` folder after every second session and must be completed before the next meeting. The first homework is already available but should only be worked on after the first meeting.**
 
 **The course emphasizes the importance of carefully reading and understanding instructions and comments to find solutions.** 
 
