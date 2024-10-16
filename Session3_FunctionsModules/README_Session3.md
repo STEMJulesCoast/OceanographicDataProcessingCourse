@@ -25,8 +25,8 @@ This notebook is part of the third session on oceanographic data processing. In 
 
 ### Files Included:
 
-- `session_3_notebook.ipynb`: The main notebook.
-- `example_function.ipynb`: A notebook for experimenting with simple functions.
+- [`session_3_notebook.ipynb`](/Session3_FunctionsModules/session_3_notebook.ipynb): The main notebook.
+- [`example_function.ipynb`](/Session3_FunctionsModules/example_function.ipynb): A notebook for experimenting with simple functions.
 
 ### Files Created:
 - `geometry.py`: A module for basic geometry functions like calculating areas.

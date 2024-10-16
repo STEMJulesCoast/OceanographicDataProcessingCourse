@@ -26,11 +26,11 @@ This notebook is part of the fifth session on oceanographic data processing, whe
 
 ### **Files Included**:
 
-- `session_5_notebook.ipynb`: The main notebook for the session, which contains exercises and analyses focused on vertical profiles, MLD, and RMSE calculations.
-- `IntroGridding.ipynb`: An introductory notebook that explores gridding techniques for in situ data. 
+- [`session_5_notebook.ipynb`](/Session5_VariabilityAnalysis/session_5_notebook.ipynb): The main notebook for the session, which contains exercises and analyses focused on vertical profiles, MLD, and RMSE calculations.
+- [`IntroGridding.ipynb`](/Session5_VariabilityAnalysis/IntroGridding.ipynb): An introductory notebook that explores gridding techniques for in situ data. 
 
 ### **Files Created**
-- `EN4_uppermost_2020_2023.nc`: A subset of the gridded Argo data, saved after processing, containing salinity, potential density, and MLD data at the uppermost depth layer and stored in `Data/EN4`.
+- `EN4_uppermost_2020_2023.nc`: A subset of the gridded Argo data, saved after processing, containing salinity, potential density, and MLD data at the uppermost depth layer and stored in [`Data/EN4`](/Data/EN4/).
 
 ---
 
@@ -42,7 +42,7 @@ This notebook is part of the fifth session on oceanographic data processing, whe
 - **Data Processing and Error Handling**: Implement logical conditions using `if-else` statements to manage data downloads, file handling, and ensure that the processing pipeline runs smoothly and only when the necessary data is available.
 - **RMSE Analysis**: Assess the accuracy of surface measurements as proxies for mixed layer conditions by calculating the RMSE for salinity between the surface layer and the mixed layer.
 - **Data Visualization**: Develop skills in plotting and visualizing multidimensional oceanographic data using interactive tools like `hvplot` to explore patterns across time, latitude, longitude, and depth.
-- **Gridding Techniques**: Learn the basics of gridding in situ data using the `IntroGridding.ipynb` notebook, which introduces linear interpolation and objective mapping techniques.
+- **Gridding Techniques**: Learn the basics of gridding in situ data using the [`IntroGridding.ipynb`](/Session5_VariabilityAnalysis/IntroGridding.ipynb) notebook, which introduces linear interpolation and objective mapping techniques.
 
 ---
 

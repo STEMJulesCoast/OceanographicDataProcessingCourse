@@ -18,20 +18,20 @@ This notebook is part of the sixth session on oceanographic data processing. In 
 
 
 4. **Application to Wind Data**:
-   - After analyzing SST, you apply the same methods to wind data, including the calculation of Ekman properties. The `TimeSeriesAnalyzer` class is reused to automate the analysis for wind-driven processes.
+   - After analyzing SST, you apply the same methods to wind data, including the calculation of Ekman properties. The [`TimeSeriesAnalyzer`](/Modules/timeseries_analyzer.py) class is reused to automate the analysis for wind-driven processes.
 
 5. **EOF Analysis (Extra)**:
-   - As an additional step, we introduce Empirical Orthogonal Function (EOF) analysis, which is used to identify dominant modes of variability in spatiotemporal data. An additional notebook (`EOF_analysis.ipynb`) is provided for a detailed example of this technique.
+   - As an additional step, we introduce Empirical Orthogonal Function (EOF) analysis, which is used to identify dominant modes of variability in spatiotemporal data. An additional notebook ([`EOF_analysis_demo.ipynb`](/Session6_FreqPatternsOOP/EOFanalysis_demo.ipynb)) is provided for a detailed example of this technique.
 
 ---
 
 ### Files Included:
 
-- `session_6_notebook.ipynb`: The main notebook for this session, which contains the exercises and automation of frequency analysis using FFT, wavelet analysis, and OOP.
-- `timeseries_analyzer.py`: A Python module that contains the `TimeSeriesAnalyzer` class. This class automates the computation of climatology, anomalies, detrending, FFT, and wavelet analyses and is stored in the `Modules` Folder.
-- `wavelet_demo.ipynb`: Demonstrates the wavelet analysis process visually.
-- `EOFanalysis_demo.ipynb`: Demonstrates how to perform EOF analysis on the same datasets used in the session.
-- additionaly the module `ekman_dynamics.py` created in Session 4 should be stored in the `Modules` Folder.
+- [`session_6_notebook.ipynb`](/Session6_FreqPatternsOOP/session_6_notebook.ipynb): The main notebook for this session, which contains the exercises and automation of frequency analysis using FFT, wavelet analysis, and OOP.
+- [`timeseries_analyzer.py`](/Modules/timeseries_analyzer.py): A Python module that contains the class. This class automates the computation of climatology, anomalies, detrending, FFT, and wavelet analyses and is stored in the [`Modules`](/Modules/) Folder.
+- [`wavelet_demo.ipynb`](/Session6_FreqPatternsOOP/wavelet_demo.ipynb): Demonstrates the wavelet analysis process visually.
+- [`EOFanalysis_demo.ipynb`](/Session6_FreqPatternsOOP/EOFanalysis_demo.ipynb): Demonstrates how to perform EOF analysis on the same datasets used in the session.
+- additionaly the module `ekman_dynamics.py` created in Session 4 should be stored in the [`Modules`](/Modules/) Folder.
 ---
 
 ### **Key Learning Outcomes**:

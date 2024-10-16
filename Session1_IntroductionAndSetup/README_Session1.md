@@ -6,8 +6,7 @@ This notebook is part of an introductory session on oceanographic data processin
 ### Overview:
 -----
 1. **Setting Up the Environment**: 
-   - The session begins by creating a virtual environment and installing essential Python libraries (`numpy`, `xarray`, `matplotlib`, `geopandas`, etc.) required for scientific data analysis.
-   - managing a Python environment and installing dependencies.
+   - The session begins by creating a virtual environment and installing essential Python libraries (`numpy`, `xarray`, `matplotlib`, `geopandas`, etc.) required for scientific data analysis. This is done using the [requirements.txt](/requirements.txt) file.
 
 2. **Downloading and Loading Data**: 
    - Once the environment is set up, we analyze climate data, such as global wind data, in NetCDF format from Copernicus Marine Service.

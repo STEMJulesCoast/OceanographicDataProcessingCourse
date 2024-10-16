@@ -26,7 +26,7 @@ This notebook is part of the fourth session on oceanographic data processing. In
 
 ### Files Included:
 
-- `session_4_notebook.ipynb`: The main notebook for the session, which contains the exercises and Ekman dynamics analysis.
+- [`session_4_notebook.ipynb`](/Session4_EkmanAnalysis/session_4_notebook.ipynb): The main notebook for the session, which contains the exercises and Ekman dynamics analysis.
 - `ekman_dynamics.py`: A module created in Session 3, containing functions for calculating Ekman transport, wind stress curl, and vertical Ekman velocity. The module was generated in Session 3 and should be stored in the `Modules` folder.
 
 ---
