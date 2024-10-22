@@ -6,15 +6,14 @@ Data/110m_cultural/*
 !/Data/110m_cultural/ne_110m_admin_0_countries.*
 **/*solutions.ipynb
 **/*.png
-experiments.ipynb
 Modules/*
 !Modules/.gitkeep
 **/__pycache__/
 *.pyc
 Session2*/test_trend_analysis.py
 .vscode
-woa_experiments.ipynb
 Session3*/Ekman_spiral.ipynb
 !Modules/timeseries_analyzer.py
 get_data
-
+Slides
+Notes.txt
