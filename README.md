@@ -46,7 +46,6 @@ Before starting the course, make sure to:
    
    If you already have Anaconda installed, you can also work with that. There's no need to install Python or VS Code separately. Instead, you can use JupyterLab, which is included with Anaconda.
 
-    If someone has **macOS**, I would recommend [Anaconda](https://www.anaconda.com/download) for our course, because it simplifies package management and dependency resolution. 
 
 3. Download the GitHub repository, unzip the folder, and make yourself familiar with the structure. 
 4. Download the required datasets:
