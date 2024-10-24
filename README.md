@@ -40,18 +40,19 @@ Each session folder contains a Jupyter notebook with both teaching materials and
 ### Requirements:
 
 Before starting the course, make sure to:
-1. Install [Python 3.12](https://www.python.org/downloads/release/python-3127/):  [Windows](https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe) | [macOS](https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg)
+1. Install [Python 3.12](https://www.python.org/downloads/release/python-3127/):  [Windows](https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe) 
     
-    and [Visual Studio (VS) Code](https://code.visualstudio.com/download): [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) | [macOS](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) 
-      
-    If you already have Anaconda installed, you can also work with that. There's no need to install Python or VS Code separately. Instead, you can use JupyterLab, which is included with Anaconda.
+    and [Visual Studio (VS) Code](https://code.visualstudio.com/download): [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+   
+   If you already have Anaconda installed, you can also work with that. There's no need to install Python or VS Code separately. Instead, you can use JupyterLab, which is included with Anaconda.
 
+    If someone has **macOS**, I would recommend [Anaconda](https://www.anaconda.com/download) for our course, because it simplifies package management and dependency resolution. 
 
-2. Download the GitHub repository, unzip the folder, and make yourself familiar with the structure. 
-3. Download the required datasets:
+3. Download the GitHub repository, unzip the folder, and make yourself familiar with the structure. 
+4. Download the required datasets:
     - Download Wind Data (Copernicus Marine Service): [Wind Data](https://data.marine.copernicus.eu/product/WIND_GLO_PHY_CLIMATE_L4_MY_012_003/files?path=WIND_GLO_PHY_CLIMATE_L4_MY_012_003%2Fcmems_obs-wind_glo_phy_my_l4_P1M_202211%2F2023%2F) (12 files, one for each month of 2023) and store them in
    [`Data/Wind`](/Data/Wind/) directory.
-4. Please note that we will be working with Jupyter Notebooks throughout the course, and during the first session, we will install the necessary libraries and set up the virtual environment together.
+5. Please note that we will be working with Jupyter Notebooks throughout the course, and during the first session, we will install the necessary libraries and set up the virtual environment together.
 
 ---
 FYI How to create a virtual environment and install the necessary libaries in Visual Studio Code
