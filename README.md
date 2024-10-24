@@ -66,7 +66,7 @@ FYI How to create a virtual environment and install the necessary libaries in Vi
      ```bash
      .venv\Scripts\activate
      ```
-   - **macOS/Linux**:
+   - **Linux**:
      ```bash
      source .venv/bin/activate
      ```
