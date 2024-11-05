@@ -16,7 +16,7 @@ The course consists of six sessions, each contained in its own folder:
 - **Session 6**: Frequency Patterns and Object-Oriented Programming – Introducing Fourier Transforms, Wavelets, and EOF Analysis
 
 ### Folder Structure:
-- [**`/Modules`**](/Modules/)): Folder to store modules and containing the class [`TimeSeriesAnalyzer`](/Modules/timeseries_analyzer.py)
+- [**`/Modules`**](/Modules/): Folder to store modules and containing the class [`TimeSeriesAnalyzer`](/Modules/timeseries_analyzer.py)
 - [**`/Data`**](/Data/): Folder to store datasets for each session.
 - [**`/Homework`**](/Homework/): Contains tasks for you to solve between meetings.
 - [**`/Session1_IntroductionAndSetup`**](/Session1_IntroductionAndSetup/): Contains the notebook and materials for Session 1.
@@ -40,12 +40,11 @@ Each session folder contains a Jupyter notebook with both teaching materials and
 ### Requirements:
 
 Before starting the course, make sure to:
-1. Install [Python 3.12](https://www.python.org/downloads/release/python-3127/):  [Windows](https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe) 
+1. Install [Python 3.12](https://www.python.org/downloads/release/python-3127/):  [Windows](https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe) | [macOS](https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg)
     
-    and [Visual Studio (VS) Code](https://code.visualstudio.com/download): [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
-   
-   If you already have Anaconda installed, you can also work with that. There's no need to install Python or VS Code separately. Instead, you can use JupyterLab, which is included with Anaconda.
+    and [Visual Studio (VS) Code](https://code.visualstudio.com/download): [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) | [macOS](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 
+    If you already have Anaconda installed, you can also work with that. There's no need to install Python or VS Code separately. Instead, you can use JupyterLab, which is included with Anaconda.  
 
 3. Download the GitHub repository, unzip the folder, and make yourself familiar with the structure. 
 4. Download the required datasets:
@@ -53,7 +52,14 @@ Before starting the course, make sure to:
    [`Data/Wind`](/Data/Wind/) directory.
 5. Please note that we will be working with Jupyter Notebooks throughout the course, and during the first session, we will install the necessary libraries and set up the virtual environment together.
 
+-----
+#### Tips for Mac Users  
+
+In case you have never worked with VS Code and Python on your MacBook before, I recommend following the instructions provided [here](https://www.stuartellis.name/articles/mac-setup/) under "Setting up your environment". You will need to install XCode, Homebrew, and modify the `.zshrc` file in your home directory. Ideally, everything should work smoothly after that. If you have any other tips or suggestions, feel free to share!
+
 ---
+#### Virtual Environment
+
 FYI How to create a virtual environment and install the necessary libaries in Visual Studio Code
 
 1. **Create a virtual environment** (optional, but recommended):
