@@ -292,6 +292,7 @@ class TimeSeriesAnalyzer:
         lon_name = next((coord for coord in data_source.coords if 'lon' in coord or 'longitude' in coord), None)
         lat_name = next((coord for coord in data_source.coords if 'lat' in coord or 'latitude' in coord), None)
 
+        
         if lon_name is None or lat_name is None:
             raise ValueError("Longitude or latitude coordinate not found in the dataset.")
 
@@ -300,12 +301,18 @@ class TimeSeriesAnalyzer:
             ds_sliced = data_source.sel(time=slice(time_start, time_end))
         else:
             ds_sliced = data_source
+        
+        latitudes = ds_sliced[lat_name]
+        weights = np.cos(np.deg2rad(latitudes)).where(~ds_sliced[variable].isnull()).fillna(0)
         # Select spatial box and compute the mean
         if 'depth' in ds_sliced[variable].dims:
-            data_box_mean = ds_sliced[variable].isel(depth=0).sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)}).mean(dim=[lon_name, lat_name])
+            data_box = (ds_sliced[variable]).isel(depth=0).sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)})
+            weights=weights.isel(depth=0)
+            data_box_mean= (data_box.weighted(weights)).mean(dim=[lon_name, lat_name])
+        
         else:
-            data_box_mean = ds_sliced[variable].sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)}).mean(dim=[lon_name, lat_name])
-
+            data_box = (ds_sliced[variable]).sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)})
+            data_box_mean= (data_box.weighted(weights)).mean(dim=[lon_name, lat_name])
         
         
         # Apply FFT
@@ -347,12 +354,17 @@ class TimeSeriesAnalyzer:
 
         if lon_name is None or lat_name is None:
             raise ValueError("Longitude or latitude coordinate not found in the dataset.")
-
+        
+        latitudes = data_source[lat_name]
+        weights = np.cos(np.deg2rad(latitudes)).where(~data_source[variable].isnull()).fillna(0)
          # Select spatial box and compute the mean
         if 'depth' in data_source[variable].dims:
-            data_box_mean = data_source[variable].isel(depth=0).sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)}).mean(dim=[lon_name, lat_name])
+            data_box= (data_source[variable]).isel(depth=0).sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)})
+            weights=weights.isel(depth=0)
+            data_box_mean= (data_box.weighted(weights)).mean(dim=[lon_name, lat_name])
         else:
-            data_box_mean = data_source[variable].sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)}).mean(dim=[lon_name, lat_name])
+            data_box = (data_source[variable]).sel({lon_name: slice(lon_min, lon_max), lat_name: slice(lat_min, lat_max)}).mean(dim=[lon_name, lat_name])
+            data_box_mean= (data_box.weighted(weights)).mean(dim=[lon_name, lat_name])
 
         time = np.arange(len(data_box_mean))
         # Extracting the start and end year from the time coordinate
