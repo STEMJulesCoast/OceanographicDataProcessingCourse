@@ -25,7 +25,7 @@ The course consists of six sessions, each contained in its own folder:
 - [**`/Session4_EkmanAnalysis`**](/Session4_EkmanAnalysis/): Contains the notebook and materials for Session 4.
 - [**`/Session5_VariabilityAnalysis`**](/Session5_VariabilityAnalysis/): Contains the notebook and materials for Session 5.
 - [**`/Session6_FreqPatternsOOP`**](/Session6_FreqPatternsOOP/): Contains the notebook and materials for Session 6.
-
+- [**`update_notebooks.ipynb`**](/update_notebooks.ipynb):  A notebook for updating files by downloading them from a repository and either replacing or saving them in your local repository.
   
 Each session folder contains a Jupyter notebook with both teaching materials and exercises. Solutions to the exercises will be uploaded after the course.
 
