@@ -55,7 +55,7 @@ Before starting the course, make sure to:
 -----
 #### Tips for Mac Users  
 
-In case you have never worked with VS Code and Python on your MacBook before, I recommend following the instructions provided [here](https://www.stuartellis.name/articles/mac-setup/) under "Setting up your environment". You will need to install XCode, Homebrew, and modify the `.zshrc` file in your home directory. Ideally, everything should work smoothly after that. If you have any other tips or suggestions, feel free to share!
+In case you have never worked with VS Code and Python on your MacBook before, I recommend following the instructions provided [here](https://www.stuartellis.name/articles/mac-setup/) under "Setting up for Development". You will need to install XCode, Homebrew, and modify the `.zshrc` file in your home directory. Ideally, everything should work smoothly after that. If you have any other tips or suggestions, feel free to share!
 
 ---
 #### Virtual Environment
