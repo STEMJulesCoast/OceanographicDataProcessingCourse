@@ -12,10 +12,8 @@ Modules/*
 *.pyc
 Session2*/test_trend_analysis.py
 .vscode
-Session3*/Ekman_spiral.ipynb
 !Modules/timeseries_analyzer.py
 get_data
 Slides
 Notes.txt
 **/chunking*
-Homework/homework2.ipynb
