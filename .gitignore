@@ -13,6 +13,7 @@ Modules/*
 Session2*/test_trend_analysis.py
 .vscode
 !Modules/timeseries_analyzer.py
+!Modules/ekman_dynamics.py
 get_data
 Slides
 Notes.txt
