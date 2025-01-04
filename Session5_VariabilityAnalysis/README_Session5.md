@@ -12,15 +12,15 @@ This notebook is part of the fifth session on oceanographic data processing, whe
 
 2. **Exploring Vertical Profiles**:
    - We transition from surface data to vertical profiles by visualizing temperature and salinity at various depths.
-   - We calculate potential density using temperature and salinity data, and analyze sections across different ocean basins, focusing on both horizontal and vertical patterns. We compare temperature and salinity distributions.
+   - We calculate potential density using temperature and salinity data, and analyze sections across different ocean basins, focusing on both horizontal and vertical patterns.
 
 
 3. **Mixed Layer Depth (MLD) Analysis**:
    - Mixed Layer Depth is calculated using a density threshold approach. We explore how changes in temperature and salinity impact the density structure of the ocean, and how this affects the MLD.
    - We calculate and visualize the seasonal cycle amplitude of the MLD, Mixed Layer Salinity and Mixed Layer Temperature.
 
-4. **RMSE Analysis**:
-   - We calculate the Root Mean Square Error (RMSE) between salinity/temperature in the first depth layer and the mixed layer. This analysis helps assess whether surface measurements are good proxies for mixed layer conditions.
+4. **RMSE Analysis (Extra)**:
+   - We calculate the Root Mean Square Error (RMSE) between salinity (temperature) in the first depth layer and the mixed layer. This analysis helps assess whether surface measurements are good proxies for mixed layer conditions.
 
 ---
 
@@ -38,10 +38,10 @@ This notebook is part of the fifth session on oceanographic data processing, whe
 
 - **Transitioning to Vertical Profiles**: Learn to analyze oceanographic data at different depths and compare horizontal and vertical structures across ocean basins.
 - **Potential Temperature and Density Calculations**: Use the Gibbs SeaWater (GSW) library to calculate potential temperature and potential density, helping to better understand the vertical structure of the ocean. Learn more about GSW at [TEOS-10 GSW](https://www.teos-10.org/pubs/gsw/html/gsw_contents.html).  
-- **Mixed Layer Dynamics**: Calculate the Mixed Layer Depth (MLD) based on density thresholds and examine its seasonal and interannual variability.  
+- **Mixed Layer Dynamics**: Calculate the Mixed Layer Depth (MLD) based on density threshold and examine its seasonal and interannual variability.  
 - **Data Processing and Error Handling**: Implement logical conditions using `if-else` statements to manage data downloads, file handling, and ensure that the processing pipeline runs smoothly and only when the necessary data is available.
-- **RMSE Analysis**: Assess the accuracy of surface measurements as proxies for mixed layer conditions by calculating the RMSE for salinity between the surface layer and the mixed layer.
 - **Data Visualization**: Develop skills in plotting and visualizing multidimensional oceanographic data using interactive tools like `hvplot` to explore patterns across time, latitude, longitude, and depth.
+- **RMSE Analysis**: Assess the accuracy of surface measurements as proxies for mixed layer conditions by calculating the RMSE for salinity between the surface layer and the mixed layer.
 - **Gridding Techniques**: Learn the basics of gridding in situ data using the [`IntroGridding.ipynb`](/Session5_VariabilityAnalysis/IntroGridding.ipynb) notebook, which introduces linear interpolation and objective mapping techniques.
 
 ---

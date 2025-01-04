@@ -25,26 +25,31 @@ This notebook is part of the sixth session on oceanographic data processing. In 
 
 ---
 
+For a general overview of how object-oriented modeling and programming work, please visit this [Storymap](https://storymaps.arcgis.com/stories/dd9d06f89a63400c96927de117a5b28a). The text is in German, but most browsers offer automatic translation. The article provides a closer look at the programming paradigm and dives into the benefits of encapsulation, inheritance, polymorphism, and abstraction.
+
+---
+
+
 ### Files Included:
 
 - [`session_6_notebook.ipynb`](/Session6_FreqPatternsOOP/session_6_notebook.ipynb): The main notebook for this session, which contains the exercises and automation of frequency analysis using FFT, wavelet analysis, and OOP.
 - [`timeseries_analyzer.py`](/Modules/timeseries_analyzer.py): A Python module that contains the class. This class automates the computation of climatology, anomalies, detrending, FFT, and wavelet analyses and is stored in the [`Modules`](/Modules/) Folder.
 - [`wavelet_demo.ipynb`](/Session6_FreqPatternsOOP/wavelet_demo.ipynb): Demonstrates the wavelet analysis process visually.
 - [`EOFanalysis_demo.ipynb`](/Session6_FreqPatternsOOP/EOFanalysis_demo.ipynb): Demonstrates how to perform EOF analysis on the same datasets used in the session.
-- additionaly the module `ekman_dynamics.py` created in Session 4 should be stored in the [`Modules`](/Modules/) Folder.
+- additionaly the module [`ekman_dynamics.py`](../Modules/ekman_dynamics.py) created in Session 4 should be stored in the [`Modules`](/Modules/) Folder.
 ---
 
 ### **Key Learning Outcomes**:
 
 - **Frequency Analysis**: Gain an understanding of how FFT and wavelet analysis can be used to detect dominant cycles and understand variability in oceanographic data.
 - **Wavelet Power Spectrum**: Learn how to examine the evolution of significant periods over time, identifying key climate cycles such as ENSO and their temporal variations.
-- **Object-Oriented Programming (OOP)**: Develop skills in OOP by automating data analysis with the `TimeSeriesAnalyzer` class, allowing for reuse of code across multiple datasets.
+- **Object-Oriented Programming (OOP)**: Develop skills in OOP by automating data analysis with the [`TimeSeriesAnalyzer`](/Modules/timeseries_analyzer.py) class, allowing for reuse of code across multiple datasets.
 - **Comparison of Variables**: Apply the same analytical techniques to both SST and wind data, and compare the variability in these datasets, particularly focusing on the role of Ekman dynamics in influencing SST patterns.
 - **EOF Analysis (Extra)**: Extend the analysis to explore spatial patterns of variability using EOF analysis, providing a deeper understanding of the underlying dynamics driving changes in oceanographic data.
 
 ---
 
-This session builds on previous work, particularly the `ekman_dynamics.py` module from **Session 3** and **Session 4**. Now, by integrating frequency analysis techniques, we deepen our exploration of the variability present in climate data over time and space.
+This session builds on previous work. Now, by integrating frequency analysis techniques, we deepen our exploration of the variability present in climate data over time and space.
 
 ---
 
