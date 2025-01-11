@@ -33,7 +33,7 @@ This notebook is part of the second session on oceanographic data processing. In
 - [`session_2_notebook.ipynb`](/Session2_DataHandling/session_2_notebook.ipynb): The main notebook.
 - [`trend_analysis.py`](/Session2_DataHandling/trend_analysis.py): A module for calculating and plotting trends.
 - [`enso_functions.py`](/Session2_DataHandling/enso_functions.py): A module for calculating and plotting ENSO-related composites.
-- [`homework1.ipynb`](/Homework/homework1.ipynb): The notebook for your homework and stored in the folder [`Homework`](/Homework/). Please complete it by the next session on November 30th. We will discuss the results together then.
+- [`homework1.ipynb`](/Homework/homework1.ipynb): The notebook for your homework and stored in the folder [`Homework`](/Homework/). 
 
 ## **Key Learning Outcomes**:
 

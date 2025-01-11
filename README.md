@@ -27,12 +27,13 @@ The course consists of six sessions, each contained in its own folder:
 - [**`/Session6_FreqPatternsOOP`**](/Session6_FreqPatternsOOP/): Contains the notebook and materials for Session 6.
 - [**`update_notebooks.ipynb`**](/update_notebooks.ipynb):  A notebook for updating files by downloading them from a repository and either replacing or saving them in your local repository.
   
-Each session folder contains a Jupyter notebook with both teaching materials and exercises. Solutions to the exercises will be uploaded after the course.
 
+**Note:** Each exercise notebook contains a few exercises, which we will either discuss together or you will complete independently. There are also extra exercises. They are provided to deepen your understanding, but they are not required to progress through the script during our live sessions. If you find that you're moving through the material quickly and would like an additional challenge, feel free to tackle these as well.
 
-**Note:** Each notebook contains a few exercises, which we will either discuss together or you will complete independently. There are also extra exercises. They are provided to deepen your understanding, but they are not required to progress through the script during our live sessions. If you find that you're moving through the material quickly and would like an additional challenge, feel free to tackle these as well.
+---
+### Solutions to the exercises and homeworks are already uploaded and stored in the corresponing folder.
+--- 
 
-**Homework will be uploaded to the [`Homework`](/Homework/) folder after every second session and must be completed before the next meeting. The first homework is already available but should only be worked on after the first meeting.**
 
 **The course emphasizes the importance of carefully reading and understanding instructions and comments to find solutions.** 
 
@@ -40,7 +41,7 @@ Each session folder contains a Jupyter notebook with both teaching materials and
 ### Requirements:
 
 Before starting the course, make sure to:
-1. Install [Python 3.12](https://www.python.org/downloads/release/python-3127/):  [Windows](https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe) | [macOS](https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg)
+1. Install [Python 3.12](https://www.python.org/downloads/release/python-3122/):  [Windows](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe) | [macOS](https://www.python.org/ftp/python/3.12.2/python-3.12.2-macos11.pkg)
     
     and [Visual Studio (VS) Code](https://code.visualstudio.com/download): [Windows](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user) | [macOS](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 
@@ -82,6 +83,8 @@ FYI How to create a virtual environment and install the necessary libaries in Vi
     pip install -r requirements.txt
     ```
 
+Normally, VS Code guides you through this process – you just need to open a notebook and click on 'Select Kernel' in the upper-right corner, then let the VS Code magic happen.
+
 ---
 
 ### Access the course via Binder
@@ -90,7 +93,7 @@ Click the link below to launch the course in a temporary, browser-based environm
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/STEMJulesCoast/OceanographicDataProcessingCourse/main)
 
-Please note that it may take several minutes (or enough time to grab a coffee/tea) for the page to load.
+Please note that it may take several minutes (or enough time to grab a coffee/tea) for the page to load. The Binder link will not be updated and may show differences compared to the repository here.
 
 ---
 ## Data Utilized Throughout the Course
